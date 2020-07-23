@@ -23,11 +23,13 @@ body{
     align-items: center;
 }
 .heading{
+    float: left;
     font-size: 80px;
     font-weight: 900;
     color: #f9a620;
 }
 .sub_heading{
+    float: left;
     font-size: 25px;
     font-weight: 900;
     color: #f9a620;
@@ -35,7 +37,7 @@ body{
 }
 /* Button */
 .button{
-    left: 36%;
+    float: left;
 }
 .btn {
   display: block;
@@ -49,15 +51,15 @@ body{
 /* Social_icons */
 
 #social_icons{
+    width: 100%;
     margin-top: 20px;
-    margin-left: 20px;
+    
 }
 .fa-facebook,.fa-instagram,.fa-linkedin,.fa-twitter{
     color: #eee;
     font-size: 20px;
-}
-a{
-    padding-right: 20px;
+    float: left;
+    margin-left: 5px;
 }
 a i:hover{
     color: #f9a620; 
